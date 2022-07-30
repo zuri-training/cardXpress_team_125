@@ -1,0 +1,14 @@
+/** General reusable styles for the whole website **/
+
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Maven Pro", sans-serif;
+}
+:root {
+  --yellow: hsl(35, 100%, 57%);
+  --pryBlue: hsl(241, 90%, 28%);
+  --darkBlue: hsl(217, 71%, 16%);
+}

@@ -1,0 +1,84 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  max-width: 96vw;
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+/** Moses css code block**/
+
+/** Moses css code block**/
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+/** Established css code block**/
+
+/** Established css code block**/
+
+/** Ringnyu css code block**/
+.feature {
+  min-height: 28vh;
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  gap: 0.5rem;
+}
+hr {
+  background-color: var(--yellow);
+  border: none;
+  height: 0.25rem;
+  width: 1.5rem;
+}
+.feature-title {
+  color: var(--pryBlue);
+}
+.feature-txt {
+  line-height: 1.75;
+}
+/** Ringnyu css code block**/
+
+/** Avos css code block**/
+
+/** Avos css code block**/
+
+/** Joe css code block**/
+
+/** Joe css code block**/
+
+/** Israel css code block**/
+
+/** Israel css code block**/
+
+@media (min-width: 475px) {
+  section {
+    flex-direction: row;
+  }
+
+  /** Ringnyu css code block**/
+  #sect-two{
+    flex-wrap: wrap;
+  }
+  .feature{
+    max-width: 18rem;
+  }
+  /** Ringnyu css code block**/
+
+}
